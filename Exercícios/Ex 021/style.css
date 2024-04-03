@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+}
+
+header {
+    width: 0px;
+    background-color: white;
+}
