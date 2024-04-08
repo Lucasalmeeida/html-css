@@ -68,6 +68,9 @@ section.normal {
 section.imagem {
     background-color: rgb(58, 57, 57);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.447);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
@@ -80,10 +83,13 @@ section.imagem > p {
 section#img01 {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
+   
 }
 
-secion#img02 {
+section#img02 {
     background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    
 }
 
 footer {
