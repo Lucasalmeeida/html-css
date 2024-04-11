@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            padding: 10px;
+            font-size: 2em;
+            font-weight: bold;
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: solid 1px black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        .colun {
+            width: 150px;
+        }
+
+    </style>
 </head>
+
 <body>
     <h1>Tabelas grandes</h1>
-    
+
+    <table>
+        <caption>
+            População das Unidades Federativas
+        </caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th class="colun">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44.411.238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.538.718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Total</th>
+            <td class="num"><strong>81.004.480</strong></td>
+        </tfoot>>
+    </table>
 </body>
+
 </html>
