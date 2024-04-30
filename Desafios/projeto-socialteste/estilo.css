@@ -1,0 +1,13 @@
+@charset "UTF-8" ;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+} 
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
